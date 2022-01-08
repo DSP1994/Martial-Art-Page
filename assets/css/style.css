@@ -103,6 +103,9 @@ header{
     padding-right: 200px;
     padding-bottom: 200px;
 }
+
+/* footer */
+
 footer{
     height: 80px;
     width: 100%;
@@ -110,4 +113,20 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #3f88c5;
 }
