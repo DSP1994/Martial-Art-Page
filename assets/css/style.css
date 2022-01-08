@@ -59,7 +59,7 @@ header{
     color: inherit;
 }
 
-menu a:hover{
+#menu a:hover{
     border-bottom: 2px solid blue;
 }
 
