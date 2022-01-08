@@ -29,7 +29,7 @@ h1, h2{
     max-height: auto;
     margin-left: 10px;
     margin-top: 10px;
-
+    filter: grayscale(100%);
 }
 
 /* nav links */
@@ -67,3 +67,15 @@ menu a:hover{
     border-bottom: 2px solid blue;    
 }
 
+/* Main Title Page */
+
+#title{
+    height: 500px;
+    width: 100%;
+
+}
+
+footer{
+    background-color: blueviolet;
+    height: 100px;
+}
