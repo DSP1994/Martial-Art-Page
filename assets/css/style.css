@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+} 
+
+body{
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: aqua;
+}
+
+/*(reminder, Oswald for tiltes and roboto for text)*/
+
+/* headings and logo */
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: coral;
+}
+
+#logo {
+    float: left;
+    max-width: 75px;
+    max-height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+/* nav links */
+
+#menu {
+    font-size: 125%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu {
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
