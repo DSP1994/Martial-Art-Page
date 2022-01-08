@@ -70,9 +70,12 @@ menu a:hover{
 /* Main Title Page */
 
 #title{
-    height: 500px;
+    height: 600px;
     width: 100%;
-
+    background: url(../image/k-119-pom-3008.jpg) no-repeat;
+    object-fit: fill;
+    background-color: grey;
+    opacity: 75%;
 }
 
 footer{
