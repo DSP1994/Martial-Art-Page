@@ -65,6 +65,10 @@ For this I have decided to design a website based off a hobby close to my heart,
 * Google fonts
 * W3C Mark up Validations Service
 
+### Personal Difficulties
+
+Struggles, setting the nav links in a straight line.
+
 ### Testing
 
 *contrast accessibility validator - with results in screen shot form*
@@ -92,8 +96,6 @@ For this I have decided to design a website based off a hobby close to my heart,
 * acknowledgements
 
 ### Personal development
-
-
 
 To begin with I have drawn out, on paper, a 4 page site that I would like to bring to life on the net. A home page, Information page, times & locations page and an enquiry page. I will be using 
 

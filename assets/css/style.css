@@ -34,18 +34,36 @@ h1, h2{
 
 /* nav links */
 
+header{
+    background-color: blueviolet;
+    height: 100px;
+}
+
 #menu {
     font-size: 125%;
     letter-spacing: 3px;
 }
 
 #menu, #logo {
-    line-height: 50px;
+    line-height: 100px;
 }
 
-#menu {
+#menu li{
     float: right;
     list-style-type: none;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin-right: 50px;
 }
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+menu a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.active{
+    border-bottom: 2px solid blue;    
+}
+
