@@ -71,13 +71,22 @@ menu a:hover{
 
 #title{
     height: 600px;
-    width: 100%;
-    background: url(../image/k-119-pom-3008.jpg) no-repeat;
-    object-fit: fill;
-    background-color: grey;
+    max-width: 100%;
+    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon.jpg) no-repeat center center;
+    background-color: gray;
     opacity: 75%;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
 }
 
+#title-text h1{
+    color: hotpink;
+}
+
+#under-title{
+
+}
 footer{
     background-color: blueviolet;
     height: 100px;
