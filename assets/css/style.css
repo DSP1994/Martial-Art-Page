@@ -35,7 +35,7 @@ h1, h2{
 /* nav links */
 
 header{
-    background-color: blueviolet;
+    background-color: #222222;
     height: 100px;
 }
 
@@ -88,6 +88,6 @@ header{
 
 }
 footer{
-    background-color: blueviolet;
+    background-color: #222222;
     height: 100px;
 }
