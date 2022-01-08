@@ -9,7 +9,8 @@
 body{
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: aqua;
+    color: #d72638;
+    /*other colors wanted #3f88c5 , #C3BABA */
 }
 
 /*(reminder, Oswald for tiltes and roboto for text)*/
@@ -20,7 +21,7 @@ h1, h2{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: coral;
+    color: #d72638;
 }
 
 #logo {
@@ -42,6 +43,7 @@ header{
 #menu {
     font-size: 125%;
     letter-spacing: 3px;
+    color: inherit;
 }
 
 #menu, #logo {
@@ -60,11 +62,11 @@ header{
 }
 
 #menu a:hover{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #3f88c5;
 }
 
 .active{
-    border-bottom: 2px solid blue;    
+    border-bottom: 2px solid #3f88c5;    
 }
 
 /* Main Title Page */
@@ -73,18 +75,23 @@ header{
     height: 600px;
     max-width: 100%;
     background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon.jpg) no-repeat center center;
-    background-color: gray;
+    background-color: #333333;
     opacity: 75%;
     margin: 0;
     padding: 0;
     background-size: 100%;
 }
 
-#title-text h1{
-  
+#title h1{
+    font-size: 450%;
+    letter-spacing: 5px;
+    color: #d72638;
+
+    text-align: center;
+    padding: 200px;
 }
 
-#under-title{
+#title h2{
 
 }
 footer{
