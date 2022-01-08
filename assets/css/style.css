@@ -26,18 +26,18 @@ h1, h2{
 
 #logo {
     float: left;
-    max-width: 75px;
+    max-width: 70px;
     max-height: auto;
-    margin-left: 10px;
-    margin-top: 10px;
-    filter: grayscale(100%);
+    margin-left: 5px;
+    margin-top: 5px;
+    filter: grayscale(25%);
 }
 
 /* nav links */
 
 header{
     background-color: #222222;
-    height: 100px;
+    height: 80px;
 }
 
 #menu {
@@ -47,7 +47,7 @@ header{
 }
 
 #menu, #logo {
-    line-height: 100px;
+    line-height: 80px;
 }
 
 #menu li{
@@ -88,13 +88,24 @@ header{
     color: #d72638;
 
     text-align: center;
-    padding: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
 }
 
 #title h2{
+    font-size: 200%;
+    letter-spacing: 5px;
+    color: #d72638;
 
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
 }
 footer{
     background-color: #222222;
-    height: 100px;
+    height: 120px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
