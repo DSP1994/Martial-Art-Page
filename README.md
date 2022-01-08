@@ -92,6 +92,7 @@ Struggles, setting the nav links in a straight line.
 ### Credits
 
 * Content
+  * (<a href='https://www.freepik.com/photos/man'>Man photo created by master1305 - www.freepik.com</a>)
 * Media
 * acknowledgements
 
