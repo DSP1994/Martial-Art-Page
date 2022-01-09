@@ -103,10 +103,11 @@ header{
     opacity: 75%;
     margin-top: 0;
     padding: 0;
-    background-size: 100%;
+    background-size: 125%;
 }
 
 /* Main Title Page */
+
 #section-1{
     position: relative;
 }
@@ -131,6 +132,38 @@ header{
     top: 360px;
     left: 450px;
 
+}
+/* Info page */
+
+#section-2{
+    position: relative;
+}
+
+#text-info div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}
+
+#about-us{
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+
+#main-tutor{
+    position: relative;
+    bottom: 300px;
+    left: 800px;
+}
+
+#events{
+    position: relative;
+    top: 150px;
+    right: 300px;
 }
 
 /* footer */
