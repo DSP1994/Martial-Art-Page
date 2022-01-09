@@ -68,6 +68,7 @@ For this I have decided to design a website based off a hobby close to my heart,
 ### Personal Difficulties
 
 Struggles, setting the nav links in a straight line.
+- background images, enquiry, struggled with center center, put it to top center - 
 
 ### Testing
 
