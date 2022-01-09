@@ -69,20 +69,48 @@ header{
     border-bottom: 2px solid #3f88c5;    
 }
 
-/* Main Title Page */
+/* Background images for all pages*/
 
-.background-img {
+.background{
+    background-color: #3f88c5;
     height: 700px;
     max-width: 100%;
+}
+
+#title-img {
     background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon.jpg) no-repeat center center;
-    background-color: #3f88c5;
     opacity: 75%;
     margin-top: 0;
     padding: 0;
     background-size: 100%;
 }
 
-#title-page h1{
+#info-img {
+    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(1\).jpg) no-repeat center center;
+    opacity: 75%;
+    margin-top: 0;
+    padding: 0;
+    background-size: 100%;
+}
+
+#times-img{
+    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(2\).jpg) no-repeat center center;
+    opacity: 75%;
+    margin-top: 0;
+    padding: 0;
+    background-size: 100%;
+}
+
+#enquire-img{
+    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(3\).jpg) no-repeat center center;
+    opacity: 75%;
+    margin-top: 0;
+    padding: 0;
+    background-size: 100%;
+}
+/* Main Title Page */
+
+#title-img h1{
     font-size: 550%;
     letter-spacing: 5px;
     color: #d72638;
@@ -93,7 +121,7 @@ header{
     padding-top: 180px;
 }
 
-#title-page h2{
+#title-img h2{
     font-size: 300%;
     letter-spacing: 5px;
     color: #d72638;
