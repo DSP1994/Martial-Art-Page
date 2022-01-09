@@ -71,7 +71,7 @@ header{
 
 /* Main Title Page */
 
-#title{
+.background-img {
     height: 700px;
     max-width: 100%;
     background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon.jpg) no-repeat center center;
@@ -82,7 +82,7 @@ header{
     background-size: 100%;
 }
 
-#title h1{
+#title-page h1{
     font-size: 550%;
     letter-spacing: 5px;
     color: #d72638;
@@ -93,7 +93,7 @@ header{
     padding-top: 180px;
 }
 
-#title h2{
+#title-page h2{
     font-size: 300%;
     letter-spacing: 5px;
     color: #d72638;
@@ -130,3 +130,4 @@ footer{
     padding-right: 5%;
     color: #3f88c5;
 }
+
