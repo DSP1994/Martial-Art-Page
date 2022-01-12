@@ -208,7 +208,7 @@ footer{
 
 .social-networks{
     text-align: center;
-    padding-top: 2rem;
+ 
 }
 
 .social-networks > li{
@@ -225,33 +225,65 @@ footer{
 
 /* Media Queries */
 @media screen and (min-width: 1280px) {
-    img{
-        height: 50rem;
-        width: 50rem;
-    }   
-
-    #title-text h1{
-        padding-bottom: 10rem;
-        font-size: 10rem;
+    /*nav and social media links*/
+    
+    #menu a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 3rem;
+      }
+    #menu li{
+        margin-right: 7rem;  
+      }
+    #logo h1{
+        font-size: 3.5rem;
     }
+    /*index page*/
+    #title-img img {
+        height: 65rem;
+        width: 65rem;
+    }
+    h1, h2{
+      font-size: 3.5rem;
+    }
+    #title-txt h1 {
+      font-size: 5rem;
+    }
+    #title-txt h2 {
+      font-size: 4rem;
+    }
+    /*info page*/
+
 }
 
 @media screen and (min-width: 768px) {
+    /*nav and social media links*/
     #menu a{
       text-decoration: none;
       color: inherit;
       font-size: 2rem;
     }
-    h1, h2{
-      font-size: 2.5rem;
-    }
-    #title-txt h1 {
-      font-size: 3rem;
-    }
-    #title-txt h2 {
-      font-size: 2rem;
-    }
     #menu li{
       margin-right: 5rem;  
     }
-  }
+    .social-networks {
+        padding-top: 1.5rem;
+    }
+    /*index page*/
+    h1, h2{
+        font-size: 2.5rem;
+      }
+      #title-txt h1 {
+        font-size: 3rem;
+      }
+      #title-txt h2 {
+        font-size: 2rem;
+      }
+}
+
+@media screen and (min-width:320px) {
+    /*nav and socials*/
+    .social-networks {
+        padding-top: 1rem;
+    }
+}
