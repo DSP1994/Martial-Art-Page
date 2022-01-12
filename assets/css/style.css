@@ -126,6 +126,9 @@ header{
     position: relative;
 }
 
+#title-txt{
+    padding-bottom: 10rem;
+}
 #title-txt h1{
     font-size: 2rem;
     letter-spacing: .5rem;   
@@ -221,6 +224,18 @@ footer{
 }
 
 /* Media Queries */
+@media screen and (min-width: 1280px) {
+    img{
+        height: 50rem;
+        width: 50rem;
+    }   
+
+    #title-text h1{
+        padding-bottom: 10rem;
+        font-size: 10rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #menu a{
       text-decoration: none;
@@ -240,5 +255,3 @@ footer{
       margin-right: 5rem;  
     }
   }
-
-
