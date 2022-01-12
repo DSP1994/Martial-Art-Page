@@ -90,21 +90,13 @@ header{
 .background{
     width: 100%;
     background-color: #d72638;
+
 }
 
 #title-img {
     width:100%;
     margin: 1rem auto;
     text-align: center;
-}
-
-#red-background {
-   width: 100%;
-   z-index: 0;
-   position: absolute;
-   background-repeat: no-repeat;
-   background-size: fill;
-   background-position: center;
 }
 
 
@@ -148,15 +140,13 @@ header{
     background-color: red;
     height: 30rem;
     width: 20rem;
-    display: block;
+    display: inline-block;
     text-align: center;
     opacity: 90%;
     margin: auto;
     border-style: groove;
-    border-width: 20px;
+    border-width: 2rem;
     border-color: #222222;
-    z-index: 2;
-    position: relative;
     margin-bottom: 2rem;
 }
 
@@ -165,19 +155,7 @@ div > h3{
     font-size: 2.5rem;
     margin-top: .5rem;
 }
-/*
-#about-us{
-    margin: auto;
-}
 
-#main-tutor{
-    margin: auto;
-}
-
-#events{
-    margin: auto;
-}
-*/
 #events ul{
     color: #c3baba;
     font-size: 130%;
@@ -245,6 +223,19 @@ footer{
     }
     /*info page*/
 
+}
+
+@media screen and (min-width:1024px) {
+       .info-style{
+        background-color: red;
+        height: 50rem;
+        width: 30rem;
+        display: inline-block;
+        text-align: center;
+        border-style: groove;
+        border-width: 20px;
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
