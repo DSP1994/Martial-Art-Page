@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-size: 10px;
 } 
+img {
+  width: 100vw;
+}
 
 body{
     font-family: Oswald, sans-serif;
@@ -16,81 +20,80 @@ body{
 /*(reminder, Oswald for tiltes and roboto for text)*/
 
 /* headings and logo */
-
 h1, h2{
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: #d72638;
+    font-size: 2rem;
 }
-
 h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: #c3baba;
 }
-
 p { 
     font-family: "Roboto", sans-serif;
     color: #c3baba;
 }
-
 #logo {
     float: left;
     font-size: 90%;
-    padding-left: 25px;
+    padding-left: 2.5rem;
     text-align: center;
+}
+
+.spacer{
+    height: 8rem;
+    width: 100%;
 }
 
 /* nav links */
 
 header{
     background-color: #222222;
-    height: 80px;
+    height: 8rem;
 }
 
 #menu {
     font-size: 125%;
-    letter-spacing: 3px;
+    letter-spacing: .3rem;
     color: inherit;
 }
 
 #menu, #logo {
-    line-height: 80px;
+    line-height: 8rem;
 }
 
 #menu li{
     float: right;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 1rem;
 }
 
 #menu a{
     text-decoration: none;
     color: inherit;
+    font-size: 1rem;
 }
 
 #menu a:hover{
-    border-bottom: 2px solid #3f88c5;
+    border-bottom: .2rem solid #3f88c5;
 }
 
 .active{
-    border-bottom: 2px solid #3f88c5;    
+    border-bottom: .2rem solid #3f88c5;    
 }
 
 /* Background images for all pages*/
 
 .background{
-    background-color: #3f88c5;
-    height: 900px;
     max-width: 100%;
 }
 
 #title-img {
-    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon.jpg) no-repeat center center;
-    opacity: 75%;
-    margin-top: 0;
-    padding: 0;
-    background-size: 100%;
+    width:100%;
+    margin: 1rem auto;
+    text-align: center;
 }
 
 #info-img {
@@ -122,46 +125,31 @@ header{
 #section-1{
     position: relative;
 }
-#title-txt h1{
-    font-size: 550%;
-    letter-spacing: 5px;
-    
-    text-align: center;
-   
-    position: absolute;
-    top: 250px;
-    bottom: 0;
-    left: 0;
-    right: 0;
 
+#title-txt h1{
+    font-size: 2rem;
+    letter-spacing: .5rem;   
+    text-align: center;
     margin: auto;
 }
 
 #title-txt h2{
-    font-size: 300%;
-    letter-spacing: 5px;
-    
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
     text-align: center;
-    
-    position: absolute;
-    top: 375px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
     margin: auto;
-
 }
+
 /* Info page */
 
 #section-2{
     position: relative;
 }
 
-#text-info div {
+.info-style {
     background-color: red;
-    height: 300px;
-    width: 200px;
+    height: 30rem;
+    width: 20rem;
     display: inline-block;
     text-align: center;
     position: absolute;
@@ -172,44 +160,42 @@ header{
     border-color: #222222;
 }
 
-#text-info div h3{
+div > h3{
     font-size: 150%;
 }
 
 #about-us{
     position: absolute;
-    top: 150px;
-    left: 300px;
+    top: 15rem;
+    left: 30rem;
 }
 
 #main-tutor{
     position: absolute;
-    top: 200px;
+    top: 25rem;
     bottom: 0;
     left: 0;
     right: 0;
-
     margin: auto;
 }
 
 #events{
     position: absolute;
-    top: 150px;
-    right: 300px;
-    
+    top: 15rem;
+    right: 30rem;
 }
 
 #events ul{
     color: #c3baba;
     font-size: 130%;
-    line-height: 38px;
+    line-height: 3.8rem;
     list-style-type: none;
 }
 
 /* footer */
 
 footer{
-    height: 80px;
+    height: 8rem;
     width: 100%;
     background: #222222;
     position: fixed;
@@ -219,6 +205,7 @@ footer{
 
 .social-networks{
     text-align: center;
+    padding-top: 2rem;
 }
 
 .social-networks > li{
@@ -232,4 +219,26 @@ footer{
     padding-right: 5%;
     color: #3f88c5;
 }
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    #menu a{
+      text-decoration: none;
+      color: inherit;
+      font-size: 2rem;
+    }
+    h1, h2{
+      font-size: 2.5rem;
+    }
+    #title-txt h1 {
+      font-size: 3rem;
+    }
+    #title-txt h2 {
+      font-size: 2rem;
+    }
+    #menu li{
+      margin-right: 5rem;  
+    }
+  }
+
 
