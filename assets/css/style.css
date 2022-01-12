@@ -6,7 +6,8 @@
     border: none;
     font-size: 10px;
 } 
-img {
+
+#first-img {
   width: 100vw;
 }
 
@@ -87,7 +88,8 @@ header{
 /* Background images for all pages*/
 
 .background{
-    max-width: 100%;
+    width: 100%;
+    background-color: #d72638;
 }
 
 #title-img {
@@ -96,28 +98,21 @@ header{
     text-align: center;
 }
 
-#info-img {
-    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(1\).jpg) no-repeat center center;
-    opacity: 75%;
-    margin-top: 0;
-    padding: 0;
-    background-size: 100%;
+#red-background {
+   width: 100%;
+   z-index: 0;
+   position: absolute;
+   background-repeat: no-repeat;
+   background-size: fill;
+   background-position: center;
 }
 
+
 #times-img{
-    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(2\).jpg) no-repeat center center;
-    opacity: 75%;
-    margin-top: 0;
-    padding: 0;
-    background-size: 100%;
 }
 
 #enquire-img{
-    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(3\).jpg) no-repeat top center;
-    opacity: 75%;
-    margin-top: 0;
-    padding: 0;
-    background-size: 125%;
+    
 }
 
 /* Main Title Page */
@@ -160,11 +155,15 @@ header{
     border-style: groove;
     border-width: 20px;
     border-color: #222222;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 2rem;
 }
 
 
 div > h3{
-    font-size: 150%;
+    font-size: 2.5rem;
+    margin-top: .5rem;
 }
 /*
 #about-us{
@@ -195,6 +194,7 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
+    z-index: 10;
 }
 
 .social-networks{
