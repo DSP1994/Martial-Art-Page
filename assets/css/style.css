@@ -81,7 +81,7 @@ header{
 
 .background{
     background-color: #3f88c5;
-    height: 700px;
+    height: 900px;
     max-width: 100%;
 }
 
@@ -110,7 +110,7 @@ header{
 }
 
 #enquire-img{
-    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(3\).jpg) no-repeat top;
+    background: url(../image/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon\ \(3\).jpg) no-repeat top center;
     opacity: 75%;
     margin-top: 0;
     padding: 0;
@@ -172,6 +172,10 @@ header{
     border-color: #222222;
 }
 
+#text-info div h3{
+    font-size: 150%;
+}
+
 #about-us{
     position: absolute;
     top: 150px;
@@ -180,7 +184,7 @@ header{
 
 #main-tutor{
     position: absolute;
-    top: 250px;
+    top: 200px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -192,6 +196,14 @@ header{
     position: absolute;
     top: 150px;
     right: 300px;
+    
+}
+
+#events ul{
+    color: #c3baba;
+    font-size: 130%;
+    line-height: 38px;
+    list-style-type: none;
 }
 
 /* footer */
