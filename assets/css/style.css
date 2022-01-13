@@ -12,7 +12,7 @@
 }
 
 body{
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
     color: #d72638;
     /*other colors wanted #3f88c5 , #C3BABA */
@@ -167,6 +167,45 @@ div > h3{
 #section-3{
     position: relative;
 }
+#section-3 h2{
+    font-size: 2.5rem;
+    letter-spacing: .3rem;   
+    text-align: center;
+    margin: auto;
+    color: #c3baba;
+    padding-top: 4rem;
+    border-bottom: .2rem solid #c3baba;
+}
+
+#section-3 table, tr, th, td{
+    margin-top: 4rem;
+    color: #c3baba;
+    height: 1rem;
+}
+
+th{
+    background-color: #222222;
+}
+td{
+    background-color: #3f88c5;
+    font-weight: bold;
+}
+td, th{
+    border: .1rem solid #c3baba;
+    text-align: center;
+    padding: .3rem;
+}
+table{
+    table-layout: fixed;
+    border: 2rem grove #c3baba;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+#cost{
+    margin-top: 4rem;
+}
 
 /* footer */
 
@@ -226,11 +265,30 @@ footer{
     #title-txt h2 {
       font-size: 4rem;
     }
-    /*info page*/
-
+    /*Times Page*/
+    #section-3 h2{
+        font-size: 8rem;
+        color: #d72638;
+}
+    #section-3 table, tr, th, td{
+        height: 4rem;
+        font-size: 6rem;
+}
+    td, th{
+       border: .5rem solid #c3baba;
+       padding:.5rem;
+}
+    table{
+       table-layout: fixed;
+       border: 2rem grove #c3baba;
+       border-collapse: collapse;
+       padding: 0.5rem;
+}
+    
 }
 
 @media screen and (min-width:1024px) {
+    /*Info page*/
        .info-style{
         background-color: #d72638;
         height: 50rem;
@@ -250,6 +308,42 @@ footer{
     }
     #main-tutor video{
         width: 40%;
+    }
+
+    /*Times Page*/
+    #section-3 h2{
+        font-size: 6.5rem;
+        padding-top: 4rem;
+        font-weight: 1000;
+        color: #d72638;
+}
+    #section-3 table, tr, th, td{
+        height: 4rem;
+        font-size: 3rem;
+}
+    td, th{
+       border: .5rem solid #c3baba;
+       padding:.5rem;
+}
+    table{
+       table-layout: fixed;
+       border: 2rem grove #c3baba;
+       border-collapse: collapse;
+       padding: 0.5rem;
+       margin: auto;
+}
+    #cost{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    #cost p{
+        font-size: 3rem;
+    }
+    #free-session{
+        margin-bottom: 2rem;
+    }
+    #free-session p{
+        font-size: 3rem;
     }
 }
 
@@ -292,6 +386,26 @@ footer{
       .info-style p, li{
           font-size: 1.5rem;
       }
+    /*Times Page*/
+    #section-3 h2{
+        font-weight: 1000;
+        
+}
+    #section-3 table, tr, th, td{
+        height: 4rem;
+        font-size: 2rem;
+}
+    td, th{
+       border: .5rem solid #c3baba;
+       padding:.5rem;
+}
+    table{
+       table-layout: fixed;
+       border: 2rem grove #c3baba;
+       border-collapse: collapse;
+       padding: 0.5rem;
+       margin: auto;
+}
 }
 
 @media screen and (min-width:320px) {
