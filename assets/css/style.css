@@ -44,7 +44,7 @@ p {
 }
 
 .spacer{
-    height: 8rem;
+    height: 6rem;
     width: 100%;
 }
 
@@ -88,23 +88,24 @@ header{
 /* Background images for all pages*/
 
 .background{
-    width: 100%;
-    background-color: #d72638;
-
+    width: 100vw;
+    height: 100%;
+    
+    height: auto;
 }
-
+.background-img{
+        background-image: url(../image/w-qjCHPZbeXCQ-unsplash.jpg); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100%;
+        background-color: #ee4152;
+}
 #title-img {
     width:100%;
     margin: 1rem auto;
     text-align: center;
-}
-
-
-#times-img{
-}
-
-#enquire-img{
-    
 }
 
 /* Main Title Page */
@@ -137,30 +138,34 @@ header{
 }
 
 .info-style {
-    background-color: red;
+    background-color: #d72638;
     height: 30rem;
     width: 20rem;
-    display: inline-block;
     text-align: center;
     opacity: 90%;
     margin: auto;
-    border-style: groove;
-    border-width: 2rem;
-    border-color: #222222;
+    border: #222222 groove 2rem;
     margin-bottom: 2rem;
 }
-
 
 div > h3{
     font-size: 2.5rem;
     margin-top: .5rem;
 }
 
+#events {
+    margin-bottom: 6rem ;
+}
 #events ul{
     color: #c3baba;
     font-size: 130%;
     line-height: 3.8rem;
     list-style-type: none;
+}
+
+/*times page*/
+#section-3{
+    position: relative;
 }
 
 /* footer */
@@ -227,14 +232,30 @@ footer{
 
 @media screen and (min-width:1024px) {
        .info-style{
-        background-color: red;
+        background-color: #d72638;
         height: 50rem;
         width: 30rem;
-        display: inline-block;
+        display: block;
+        position: relative;
         text-align: center;
         border-style: groove;
         border-width: 20px;
+        margin: 0 auto;
+    }
+    #about-us{
         margin-bottom: 2rem;
+    }
+    #main-tutor{
+        margin-bottom: 2rem;
+    }
+    #main-tutor video{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .background-img{
+        background-image: none;
     }
 }
 
@@ -261,11 +282,25 @@ footer{
       #title-txt h2 {
         font-size: 2rem;
       }
+      /*info page*/
+      .info-style{
+          width: 80vw;
+      }
+      .info-style h3{
+          font-size: 5rem;
+      }
+      .info-style p, li{
+          font-size: 1.5rem;
+      }
 }
 
 @media screen and (min-width:320px) {
     /*nav and socials*/
     .social-networks {
         padding-top: 1rem;
+    }
+    /*Info Page Video*/
+    #main-tutor video{
+        padding-top: 2rem;
     }
 }
