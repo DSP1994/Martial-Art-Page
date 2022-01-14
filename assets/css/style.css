@@ -21,7 +21,7 @@ body{
 /*(reminder, Oswald for tiltes and roboto for text)*/
 
 /* headings and logo */
-h1, h2,{
+h1, h2{
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: #d72638;
@@ -209,17 +209,54 @@ table{
 
 /*enquire page*/
 h3{
-    color: #c3baba;
-    font-size: 2rem;
+    color: #222222;
+    font-size: 2.2rem;
     text-align: center;
+    border-bottom: .2rem solid #c3baba;
+    padding-top: 1rem;
+}
+p{
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #222222;
 }
 form{
     color: #c3baba;
     text-align: center;
+    font-size: 1rem;
+}
+.border{
+        border-style: solid;
+        border-width: .1rem;
+}
+label{
+    font-size: 1.8rem;
+    font-weight: 600;
+}    
+input{
+    height: 1.5rem;
 }
 #further-q{
-    height: 10rem;
+    height: 5rem;
+    overflow: scroll;
+    font-size: 1.2rem;
 }
+.buttons{
+    font-size: 1.5rem;
+    border: #222222;
+    border-width: .1rem;
+    border-style: solid;
+    height: 2rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.buttons:hover{
+    background-color: #3f88c5;
+}
+
 /* footer */
 
 footer{

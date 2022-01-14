@@ -35,14 +35,15 @@
         <p>Please fill out the form below with your first & last name, along with your email and if you'd like, any further questions you may have in the box below. We will do our best to respond to you within 2-3 working days!</p>
         <form>
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" value="First Name" class="border"><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email"><br>
+            <input type="text" id="lname" name="lname" value="Last Name" class="border"><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" value="Email Address" class="border"><br>
             <label for="further-q">Any Further Questions?</label><br>
-            <input type="text" id="further-q" name="further-q"><br>
-            <input type="submit" value="Submit">
+            <textarea id="further-q" name="further-q" value="Further Questions?" rows="4" cols="25" class="border"></textarea><br>
+            <input type="submit" value="Submit" class="buttons">
+            <input type="reset" value="Reset Form" class="buttons">
         </form>
 
         <h3>Contact Information</h3>
@@ -51,6 +52,8 @@
         <p> 012345 678910 / 07123456789</p>
         <h3>Address</h3>
         <p>1234 Random Road</p>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
     </section>
     <footer>
         <ul class="social-networks">
