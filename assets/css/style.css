@@ -162,7 +162,9 @@ div > h3{
     line-height: 3.8rem;
     list-style-type: none;
 }
-
+video{
+    padding-top: 6rem;
+}
 /*times page*/
 #section-3{
     position: relative;
@@ -315,6 +317,10 @@ footer{
     #title-txt h2 {
       font-size: 4rem;
     }
+    /*Info page*/
+    #main-tutor{
+        height: 80rem;
+    }
     /*Times Page*/
     #section-3 h2{
         font-size: 8rem;
@@ -357,7 +363,8 @@ footer{
         margin-bottom: 2rem;
     }
     #main-tutor video{
-        width: 40%;
+        width: 70%;
+        padding-top: 5rem;
     }
 
     /*Times Page*/
@@ -417,7 +424,7 @@ footer{
         padding-top: 1.5rem;
     }
     /*index page*/
-    h1, h2{
+      h1, h2{
         font-size: 2.5rem;
       }
       #title-txt h1 {
@@ -426,7 +433,7 @@ footer{
       #title-txt h2 {
         font-size: 2rem;
       }
-      /*info page*/
+    /*info page*/
       .info-style{
           width: 80vw;
       }
@@ -435,6 +442,10 @@ footer{
       }
       .info-style p, li{
           font-size: 1.5rem;
+      }
+      video{
+          padding-top: 3rem;
+          width: 45%;
       }
     /*Times Page*/
     #section-3 h2{
@@ -462,9 +473,5 @@ footer{
     /*nav and socials*/
     .social-networks {
         padding-top: 1rem;
-    }
-    /*Info Page Video*/
-    #main-tutor video{
-        padding-top: 2rem;
     }
 }
