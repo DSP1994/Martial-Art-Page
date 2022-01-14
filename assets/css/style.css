@@ -256,7 +256,7 @@ input{
 }
 
 .buttons:hover{
-    background-color: #3f88c5;
+    background-color: #;
 }
 
 /* footer */
@@ -273,7 +273,7 @@ footer{
 
 .social-networks{
     text-align: center;
- 
+    padding-top: 1.2rem;
 }
 
 .social-networks > li{
@@ -302,6 +302,10 @@ footer{
       }
     #logo h1{
         font-size: 3.5rem;
+    }
+    .social-networks{
+        padding-bottom: 4rem;
+        font-size: 3rem;
     }
     /*index page*/
     #title-img img {
@@ -467,11 +471,4 @@ footer{
        padding: 0.5rem;
        margin: auto;
 }
-}
-
-@media screen and (min-width:320px) {
-    /*nav and socials*/
-    .social-networks {
-        padding-top: 1rem;
-    }
 }
