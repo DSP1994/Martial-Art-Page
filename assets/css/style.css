@@ -165,6 +165,9 @@ div > h3{
 video{
     padding-top: 6rem;
 }
+.scroll{
+    overflow: scroll;
+}
 /*times page*/
 #section-3{
     position: relative;
