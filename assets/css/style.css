@@ -84,7 +84,9 @@ header{
 .active{
     border-bottom: .2rem solid #3f88c5;    
 }
-
+.social-networks{
+    margin-top: 1rem;
+}
 /* Background images for all pages*/
 
 .background{
@@ -177,15 +179,17 @@ video{
     letter-spacing: .3rem;   
     text-align: center;
     margin: auto;
-    color: #c3baba;
+    color: #d72638;
     padding-top: 4rem;
     border-bottom: .2rem solid #c3baba;
 }
 
 #section-3 table, tr, th, td{
-    margin-top: 4rem;
     color: #c3baba;
     height: 1rem;
+}
+#section-3 table{
+    margin: auto;
 }
 
 th{
@@ -196,20 +200,20 @@ td{
     font-weight: bold;
 }
 td, th{
-    border: .1rem solid #c3baba;
+    border: .3rem solid #c3baba;
     text-align: center;
     padding: .3rem;
 }
 table{
     table-layout: fixed;
-    border: 2rem grove #c3baba;
+    border: .5rem solid #c3baba;
     border-collapse: collapse;
     padding: 0.5rem;
     margin: auto;
 }
 
 #cost{
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 /*enquire page*/
@@ -227,7 +231,7 @@ p{
     color: #222222;
 }
 form{
-    color: #c3baba;
+    color: #d72638;
     text-align: center;
     font-size: 1rem;
 }
@@ -343,6 +347,7 @@ footer{
        border: 2rem grove #c3baba;
        border-collapse: collapse;
        padding: 0.5rem;
+       margin: auto;
 }
     
 }
@@ -452,6 +457,7 @@ footer{
     /*Times Page*/
     #section-3 h2{
         font-weight: 1000;
+        font-size: 4rem;
         }
     #section-3 table, tr, th, td{
         height: 4rem;
@@ -469,7 +475,8 @@ footer{
     }
     @media screen and (min-width:1024px){
         .social-networks{
-            padding: 2rem;
+            padding: 1.2rem;
+            margin-top: none;
         }
         .social-networks i{
             font-size: 4rem;
@@ -479,7 +486,8 @@ footer{
     }
     @media screen and (min-width:1280px){
         .social-networks{
-            padding: 1.2rem;
+            padding: .5rem;
+            margin-top: none;
         }
         .social-networks i{
             font-size: 5rem;
