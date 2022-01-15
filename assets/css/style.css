@@ -406,11 +406,6 @@ footer{
         font-size: 3rem;
     }
 }
-@media screen and (max-width:1024px) {
-    .background-img{
-        background-image: none;
-    }
-}
 
 @media screen and (min-width: 768px) {
     /*nav and social media links*/
