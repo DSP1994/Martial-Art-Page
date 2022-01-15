@@ -256,7 +256,7 @@ input{
 }
 
 .buttons:hover{
-    background-color: #;
+    background-color: #c3baba;
 }
 
 /* footer */
@@ -268,12 +268,12 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
-    z-index: 10;
+    
 }
 
 .social-networks{
     text-align: center;
-    padding-top: 1.2rem;
+    padding: 1rem;
 }
 
 .social-networks > li{
@@ -281,17 +281,18 @@ footer{
 }
 
 .social-networks i{
-    font-size: 200%;
-    margin: 1.5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: #3f88c5;
+}
+.fab:hover{
+    opacity: 0.7;
 }
 
 /* Media Queries */
 @media screen and (min-width: 1280px) {
     /*nav and social media links*/
-    
     #menu a{
         text-decoration: none;
         color: inherit;
@@ -302,10 +303,6 @@ footer{
       }
     #logo h1{
         font-size: 3.5rem;
-    }
-    .social-networks{
-        padding-bottom: 4rem;
-        font-size: 3rem;
     }
     /*index page*/
     #title-img img {
@@ -370,7 +367,6 @@ footer{
         width: 70%;
         padding-top: 5rem;
     }
-
     /*Times Page*/
     #section-3 h2{
         font-size: 6.5rem;
@@ -407,7 +403,6 @@ footer{
         font-size: 3rem;
     }
 }
-
 @media screen and (max-width:1024px) {
     .background-img{
         background-image: none;
@@ -424,8 +419,13 @@ footer{
     #menu li{
       margin-right: 5rem;  
     }
-    .social-networks {
-        padding-top: 1.5rem;
+    .social-networks{
+        padding: 2rem;
+    }
+    .social-networks i{
+        font-size: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
     /*index page*/
       h1, h2{
@@ -454,21 +454,39 @@ footer{
     /*Times Page*/
     #section-3 h2{
         font-weight: 1000;
-        
-}
+        }
     #section-3 table, tr, th, td{
         height: 4rem;
         font-size: 2rem;
-}
+    }
     td, th{
        border: .5rem solid #c3baba;
-       padding:.5rem;
-}
+       padding:.5rem;}
     table{
        table-layout: fixed;
        border: 2rem grove #c3baba;
        border-collapse: collapse;
        padding: 0.5rem;
        margin: auto;
-}
+    }
+    @media screen and (min-width:1024px){
+        .social-networks{
+            padding: 2rem;
+        }
+        .social-networks i{
+            font-size: 4rem;
+            padding-left: 7rem;
+            padding-right: 7rem;
+        }
+    }
+    @media screen and (min-width:1280px){
+        .social-networks{
+            padding: 1.2rem;
+        }
+        .social-networks i{
+            font-size: 5rem;
+            padding-left: 12rem;
+            padding-right: 12rem;
+        }
+    }
 }
