@@ -32,7 +32,7 @@ h3 {
     text-transform: uppercase;
     color: #c3baba;
 }
-p { 
+p{ 
     font-family: "Roboto", sans-serif;
     color: #c3baba;
 }
@@ -152,7 +152,7 @@ header{
 
 div > h3{
     font-size: 2.5rem;
-    margin-top: .5rem;
+    padding-top: .5rem;
 }
 
 #events {
@@ -160,7 +160,7 @@ div > h3{
 }
 #events ul{
     color: #c3baba;
-    font-size: 130%;
+    font-size: 1.5rem;
     line-height: 3.8rem;
     list-style-type: none;
 }
@@ -217,18 +217,25 @@ table{
 }
 
 /*enquire page*/
-h3{
-    color: #222222;
+#enquire-title{
+    color: #d72638;
     font-size: 2.2rem;
     text-align: center;
-    border-bottom: .2rem solid #c3baba;
+    border-bottom: .2rem solid #d72638;
     padding-top: 1rem;
 }
 p{
-    margin: 2rem;
+    padding: 2rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #222222;
+}
+.enquire-info{
+    color: #d72638;
+    font-size: 2.2rem;
+    text-align: center;
+    border-bottom: .2rem solid #d72638;
+    padding-top: 1rem;
 }
 form{
     color: #d72638;
@@ -270,7 +277,7 @@ input{
     padding-top: 5rem;
     text-align: center;
     width: 100%;
-    height: 60rem;
+    height: 100vh;
 }
 .thankyou{
     font-size: 6rem;
@@ -311,50 +318,67 @@ footer{
 }
 
 /* Media Queries */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
     /*nav and social media links*/
     #menu a{
-        text-decoration: none;
-        color: inherit;
-        font-size: 3rem;
-      }
+      text-decoration: none;
+      color: inherit;
+      font-size: 2rem;
+    }
     #menu li{
-        margin-right: 7rem;  
-      }
-    #logo h1{
-        font-size: 3.5rem;
+      margin-right: 5rem;  
+    }
+    .social-networks{
+        padding: 2rem;
+    }
+    .social-networks i{
+        font-size: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .background-img{
+        height: 140vh;
     }
     /*index page*/
-    #title-img img {
-        height: 65rem;
-        width: 65rem;
+      h1, h2{
+        font-size: 2.5rem;
+      }
+      #title-txt h1 {
+        font-size: 3rem;
+      }
+      #title-txt h2 {
+        font-size: 2rem;
+      }
+    /*info page*/
+      .info-style{
+          width: 80vw;
+      }
+      .info-style h3{
+          font-size: 5rem;
+      }
+     video{
+          padding-top: 3rem;
+          width: 45%;
+      }
+      #events ul{
+        font-size: 3rem;
+        line-height: 4rem;
     }
-    h1, h2{
-      font-size: 3.5rem;
-    }
-    #title-txt h1 {
-      font-size: 5rem;
-    }
-    #title-txt h2 {
-      font-size: 4rem;
-    }
-    /*Info page*/
-    #main-tutor{
-        height: 80rem;
+    .txt-info{
+        font-size: 3rem;
     }
     /*Times Page*/
     #section-3 h2{
-        font-size: 8rem;
-        color: #d72638;
-    }
+        font-weight: 1000;
+        font-size: 5rem;
+        }
     #section-3 table, tr, th, td{
         height: 4rem;
-        font-size: 6rem;
+        font-size: 2rem;
     }
     td, th{
        border: .5rem solid #c3baba;
-       padding:.5rem;
-    }   
+       padding:.5rem;}
     table{
        table-layout: fixed;
        border: 2rem grove #c3baba;
@@ -362,22 +386,58 @@ footer{
        padding: 0.5rem;
        margin: auto;
     }
-    
-    
-}
+    /*enquire page*/
+    #enquire-title{
+        font-size: 5rem;
+        padding-top: 4.5rem;
+    }
+    .enq-txt-info{
+        font-size: 3rem;
+    }
+    .enquire-info{
+        font-size: 4rem;
+    }
+    label{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }    
+    input{
+        height: 3rem;
+        width: 25rem;
+    }
+    #further-q{
+        height: 15rem;
+        width: 25rem;
+        font-size: 2.2rem;
+    }
+    .buttons{
+        font-size: 2.2rem;
+        height: 4rem;
+        width: 15rem;
+    }
 
-@media screen and (min-width:1024px) {
+    /*thankyou page*/
+    .thankyou{
+        margin-top: 10rem;
+    }
+}
+@media screen and (min-width:1024px){
+    /*nav and social media links*/
+    .background-img{
+        height: 120vh;
+    }
+    .social-networks{
+        padding: 1.2rem;
+        margin-top: none;
+    }
+    .social-networks i{
+    font-size: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    }
     /*Info page*/
-       .info-style{
-        background-color: #d72638;
-        height: 50rem;
-        width: 30rem;
-        display: block;
-        position: relative;
-        text-align: center;
-        border-style: groove;
-        border-width: 20px;
-        margin: 0 auto;
+    .info-style{
+        height: 40rem;
     }
     #about-us{
         margin-bottom: 2rem;
@@ -386,8 +446,15 @@ footer{
         margin-bottom: 2rem;
     }
     #main-tutor video{
-        width: 70%;
-        padding-top: 5rem;
+        width: 55%;
+        padding-top: 4rem;
+    }
+    #events ul{
+        font-size: 4rem;
+        line-height: 5.5rem;
+    }
+    .txt-info{
+        font-size: 2.5rem;
     }
     /*Times Page*/
     #section-3 h2{
@@ -424,62 +491,116 @@ footer{
     #free-session p{
         font-size: 3rem;
     }
-}
+    /*enquire page*/
+    #enquire-title{
+        padding-top: 3rem;
+        font-size: 5rem;
+    }
+    p{
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #222222;
+    }
+    .enquire-info{
+        font-size: 4rem;
+    }
 
-@media screen and (min-width: 768px) {
+    label{
+        font-size: 3rem;
+        font-weight: 600;
+    }    
+    input{
+        height: 2rem;
+        width: 20rem;
+        }
+    #further-q{
+        height: 15rem;
+        font-size: 2.5rem;
+    }
+    .buttons{
+        font-size: 2rem;
+        height: 4rem;
+        width: 15rem;
+    }
+    .enq-txt-info{
+        font-size: 2.5rem;
+    }
+    /*thankyou page*/
+    .thankyou{
+    margin-top: 12rem;
+    }
+}
+@media screen and (min-width:1280px){
     /*nav and social media links*/
     #menu a{
-      text-decoration: none;
-      color: inherit;
-      font-size: 2rem;
-    }
+        text-decoration: none;
+        color: inherit;
+        font-size: 3rem;
+      }
     #menu li{
-      margin-right: 5rem;  
+        margin-right: 7rem;  
+      }
+    #logo h1{
+        font-size: 3.5rem;
     }
     .social-networks{
-        padding: 2rem;
+        padding: .5rem;
+        margin-top: none;
     }
     .social-networks i{
-        font-size: 3rem;
-        padding-left: 4rem;
-        padding-right: 4rem;
+        font-size: 5rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    .background-img{
+        height: 180vh;
     }
     /*index page*/
-      h1, h2{
+    #title-img img {
+        height: 65rem;
+        width: 65rem;
+    }
+    h1, h2{
+      font-size: 3.5rem;
+    }
+    #title-txt h1 {
+      font-size: 5rem;
+    }
+    #title-txt h2 {
+      font-size: 4rem;
+    }
+    /*Info page*/
+    #main-tutor{
+        height: 60rem;
+    }
+    .info-style{
+    height: 40rem;
+    width: 70vw;
+    }
+    #main-tutor video{
+        width: 60%;
+    }
+    #events ul{
+        font-size: 4rem;
+        line-height: 5.5rem;
+    }
+    .txt-info{
         font-size: 2.5rem;
-      }
-      #title-txt h1 {
-        font-size: 3rem;
-      }
-      #title-txt h2 {
-        font-size: 2rem;
-      }
-    /*info page*/
-      .info-style{
-          width: 80vw;
-      }
-      .info-style h3{
-          font-size: 5rem;
-      }
-      .info-style p, li{
-          font-size: 1.5rem;
-      }
-      video{
-          padding-top: 3rem;
-          width: 45%;
-      }
+    }
     /*Times Page*/
     #section-3 h2{
-        font-weight: 1000;
-        font-size: 4rem;
-        }
+        font-size: 6.5rem;
+        color: #d72638;
+    }
     #section-3 table, tr, th, td{
-        height: 4rem;
-        font-size: 2rem;
+        height: 2rem;
+        font-size: 3rem;
     }
     td, th{
        border: .5rem solid #c3baba;
-       padding:.5rem;}
+       padding:.5rem;
+    }   
     table{
        table-layout: fixed;
        border: 2rem grove #c3baba;
@@ -487,47 +608,47 @@ footer{
        padding: 0.5rem;
        margin: auto;
     }
-    /*thankyou page*/
-    #thankyou{
-        height: 85rem;
+    #cost p{
+        font-size: 2.2rem;
     }
+    #free-session p{
+        font-size: 2.2rem;
+    }
+    /*enquire page*/
+    #enquire-title{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2.2rem;
+    }
+    .enquire-info{
+        font-size: 3rem;
+    }
+    label{
+        font-size: 3rem;
+        font-weight: 600;
+    }    
+    input{
+        height: 2rem;
+        width: 20rem;
+    }
+    #further-q{
+        height: 15rem;
+        width: 25rem;
+        overflow: scroll;
+        font-size: 2rem;
+    }
+    .buttons{
+        font-size: 1.8rem;
+        height: 2.5rem;
+        width: 15rem;
+    }
+    .enq-txt-info{
+        font-size: 2.5rem;
+    }
+    /*thankyou page*/
     .thankyou{
         margin-top: 10rem;
+        margin-bottom: 8rem;
     }
-@media screen and (min-width:1024px){
-        .social-networks{
-            padding: 1.2rem;
-            margin-top: none;
-        }
-        .social-networks i{
-            font-size: 4rem;
-            padding-left: 7rem;
-            padding-right: 7rem;
-        }
-/*thankyou page*/
-    #thankyou{
-        height: 120rem;
-    }
-    .thankyou{
-        margin-top: 12rem;
-    }
-    }
-@media screen and (min-width:1280px){
-        .social-networks{
-            padding: .5rem;
-            margin-top: none;
-        }
-        .social-networks i{
-            font-size: 5rem;
-            padding-left: 12rem;
-            padding-right: 12rem;
-        }
-    }
-    /*thankyou page*/
-        #thankyou{
-            height: 100rem;
-        }
-        .thankyou{
-            margin-top: 12rem;
-        }
 }
