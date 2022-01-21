@@ -15,16 +15,22 @@
 
 *enter here*
 
-## **Basic Overview**
+## **Purpose**
 
-This is my first full, and marked, project through the code institute course. I have been tasked with making a front end website using basic code that I have learnt over the last month, including HTML and CSS.
+This website has been built and designed for the sole purpose of my first project through the code institute course. I have been tasked with making a front end website using basic code that I have learnt over the last month, including HTML and CSS. A completed list of technologies can be found in the 'technology used' section of this Readme.md
 
-For this I have decided to design a website based off a hobby close to my heart, Taekwon-Do, after having practiced this sport for almost 20 years.
+For this website I have decided to design a website based off a hobby close to my heart, Taekwon-Do, after having practiced this sport for almost 20 years, I felt that as a beginning project, it would serve me well if I knew what I was talking about, instead of trying to design a website for something entirely new.
 
 ## Brief
 
-*example of client needing a project*
+Misfits Martial Arts, Misfits MA. The end goal of this project is to create a website in which a new potential customer can navigate easily, and quickly access the information that they require to become a new member of the club.
 
+### What I entend to include;
+
+- A simple homepage from which the potential customer can easily navigate to other pages on the site, or be directed towards their social media links.
+- An introduction to the club, for example an *'about us'* section, a quick video to engage with, and possibly upcoming events to engage the customer with.
+- Where and when to attend a class, as turning up to the class is usually the hardest part!
+- A form for the customer to contact the club with any further questions, along with a page that thanks them for their enquiry.
 *a goal, pages, reason*
 
 ## **Beginning The Project**

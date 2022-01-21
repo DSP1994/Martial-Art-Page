@@ -95,7 +95,7 @@ header{
     
     height: auto;
 }
-.background-img{
+.container-img{
         background-image: url(../image/w-qjCHPZbeXCQ-unsplash.jpg); 
         background-position: center;
         background-repeat: no-repeat;
@@ -336,7 +336,7 @@ footer{
         padding-left: 4rem;
         padding-right: 4rem;
     }
-    .background-img{
+    .container-img{
         height: 140vh;
     }
     /*index page*/
@@ -423,7 +423,7 @@ footer{
 }
 @media screen and (min-width:1024px){
     /*nav and social media links*/
-    .background-img{
+    .container-img{
         height: 120vh;
     }
     .social-networks{
@@ -553,8 +553,8 @@ footer{
         padding-left: 12rem;
         padding-right: 12rem;
     }
-    .background-img{
-        height: 180vh;
+    .container-img{
+        height: 150vh;
     }
     /*index page*/
     #title-img img {
@@ -650,5 +650,11 @@ footer{
     .thankyou{
         margin-top: 10rem;
         margin-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width:1850px) {
+    .container-img{
+        height: 180vh;
     }
 }
