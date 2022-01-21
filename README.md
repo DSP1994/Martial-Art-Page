@@ -35,19 +35,18 @@ Misfits Martial Arts, Misfits MA. The end goal of this project is to create a we
 - Where and when to attend a class, as turning up to the class is usually the hardest part!
 - A form for the customer to contact the club with any further questions, along with a page that thanks them for their enquiry.
 ***
-
 ### Responsive Website
 ![mutltiple-device-demo](readme-content/images/multi-device-pic.png)
 ***
 ## **Beginning The Project**
 
-### Initial Idea
+### **Initial Idea**
 
 *Drawings etc*
 
-### Colour Scheme
-
-*insert here*
+### **Colour Scheme**
+A unique and eye popping color pallet created using *[coolors.co](https://coolors.co)*. Black, red and blue are the senior most colors in Taekwon-Do, so I thought it fitting that these should be represented in the website.
+![color-scheme](readme-content/images/color-pallet.png)
 
 ### Typography
 
