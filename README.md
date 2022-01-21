@@ -17,6 +17,11 @@
 - [Brief](#Brief)
 - [Including](#What-I-entend-to-include)
 - [Responsive-Website](#Responsive-Website)
+- [Beginning-The-Project](#Beginning-The-Project)
+  - [Initial-Idea](#Initial-Idea)
+  - [Color-Scheme](#Color-Scheme)
+  - [Typography](#Typography)
+- [During-The-Project](#During-The-Project)
 ***
 ## **Purpose**
 
@@ -48,6 +53,8 @@ Misfits Martial Arts, Misfits MA. The end goal of this project is to create a we
 A unique and eye popping color pallet created using *[coolors.co](https://coolors.co)*. Black, red and blue are the senior most colors in Taekwon-Do, so I thought it fitting that these should be represented in the website.
 ![color-scheme](readme-content/images/color-pallet.png)
 
+I found that these colors matched surprisingly well with the logo I had decided to use on the homepage. This was, in all honesty, a happy coincidence that I had not planned for, however it made me realise the importance of ensuring no two colors clashed, and made me very aware of what colors I was using on each webpage going through the project.
+
 ### Typography
 
 *dont forget google fonts*
@@ -55,6 +62,8 @@ A unique and eye popping color pallet created using *[coolors.co](https://coolor
 ### images
 
 *site names and places etc*
+
+## **During The Project**
 
 ### Features on the site
 
