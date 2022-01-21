@@ -5,15 +5,18 @@
 ***
 ## Live Site
 
-*enter here*
+[Misfits Martial Arts](https://dsp1994.github.io/My-First-Full-Project/)
 
 ## Repository
 
-*enter here*
+[https://github.com/DSP1994/My-First-Full-Project](https://github.com/DSP1994/My-First-Full-Project)
 
 ## Table of content
 
-*enter here*
+- [Purpose](#Purpose)
+- [Brief](#Brief)
+- [Including](#What-I-entend-to-include)
+- [Responsive-Website](#Responsive-Website)
 ***
 ## **Purpose**
 
@@ -34,8 +37,8 @@ Misfits Martial Arts, Misfits MA. The end goal of this project is to create a we
 ***
 
 ### Responsive Website
-![mutltiple-device-demo](../)
-
+![mutltiple-device-demo](readme-content/images/multi-device-pic.png)
+***
 ## **Beginning The Project**
 
 ### Initial Idea
