@@ -47,7 +47,9 @@ p{
     height: 6rem;
     width: 100%;
 }
-
+#container{
+    color: #FFFFFF;
+}
 /* nav links */
 
 header{
