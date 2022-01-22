@@ -90,7 +90,7 @@ By planning out my ideas previously in the '[What-I-Intend-To-Include](#What-I-I
 
 > When the customer uses the navigation links to click on *'info'* they are greated with an about section which goes into a breif description of the club, how long it has been established, and how they are family oriented. As a first time customer, and potential new student, it is imperative that everyone feels comfortable approaching the club.
 
-> For those who prefer to 'see it, not say it', there is a video clip also linked to this page, which the customer has full control of playing, pausing and adjusting the volume. **Please note; this video is purely fictious and is only a 14 second clip from a website linked in the [Credits](#Credits) section of this Readme file. It is purely for the sake of the project and does not contain any actual information on this fictious club.**
+> For those who prefer to 'see it, not say it', there is a video clip also linked to this page, which the customer has full control of playing, pausing and adjusting the volume. **Please note; this video is purely fictious and is only a 5 second clip from a website linked in the [Credits](#Credits) section of this Readme file. It is purely for the sake of the project and does not contain any actual information on this fictious club.**
 
 >Finally, for those who are new customers, or returning customers, there is a section dedicated to upcoming events. These events are a great way to open people up to new experiences, and potentially recruit new members to the club who may not have had the opportunity before. A great example of this, is the 'mothers day' event. Many children attend martial art clubs all over the country, and for legal and safety reasons, many parents stay and watch. With mothers day only a few months away, it could allow parents of members of the club a chance to partake in activities that they may not have thought of doing before.
 
@@ -111,15 +111,21 @@ By planning out my ideas previously in the '[What-I-Intend-To-Include](#What-I-I
 The above shows a little insight to what went through my mind in the reasonings behind the pages I decided to use for this project, and how to balance a new customer coming to the site, versus a recurring customer. As both are needed in order to run a successful site.
 
 ### **Technologies Used**
+- [Font Awesome](https://fontawesome.com/)
+  - Used to give icons to the social media section of the footers. This provides a more visual stimulation for the user as they are already aware of what the icons stand for.
 
+- [Coolors.co](https://coolors.co/)
+  - This site was used to come up with a colour scheme for the entire website.
 
-*bullet point style list and info*
-* *balsamiq*
-* compressor.io?
-* font awesome  **yes**
-* coolors.co
-* Chrome Dev Tools (to modifty sizings etc)
-* Google fonts
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+  - Once I was happy with the lay out of the site, this feature on Google Chrome was used heavily to figure out why certain code worked, and why other parts didn't. As I progressed further through the project, I found myself relying on this much more than I realised, and it most definitely helped to complete each page quicker than the last.
+
+- [Google Fonts](https://fonts.google.com/)
+  - As mentioned in the [Typography](#Typgraphy) section, google fonts was used to provide a more unique look for the site.
+
+- [HTML Checker](https://validator.w3.org/)
+   - 
+   
 * W3C Mark up Validations Service
 ***
 ## **Completion Of The Website**
