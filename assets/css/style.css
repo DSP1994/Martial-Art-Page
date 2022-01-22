@@ -9,6 +9,7 @@
 
 #first-img {
   width: 100vw;
+  height: auto;
 }
 
 body{
@@ -383,7 +384,7 @@ footer{
        padding:.5rem;}
     table{
        table-layout: fixed;
-       border: 2rem grove #c3baba;
+       border: 2rem #c3baba groove;
        border-collapse: collapse;
        padding: 0.5rem;
        margin: auto;
@@ -430,7 +431,7 @@ footer{
     }
     .social-networks{
         padding: 1.2rem;
-        margin-top: none;
+        
     }
     .social-networks i{
     font-size: 4rem;
@@ -475,7 +476,7 @@ footer{
 }
     table{
        table-layout: fixed;
-       border: 2rem grove #c3baba;
+       border: 2rem #c3baba groove;
        border-collapse: collapse;
        padding: 0.5rem;
        margin: auto;
@@ -548,7 +549,7 @@ footer{
     }
     .social-networks{
         padding: .5rem;
-        margin-top: none;
+      
     }
     .social-networks i{
         font-size: 5rem;
@@ -605,7 +606,7 @@ footer{
     }   
     table{
        table-layout: fixed;
-       border: 2rem grove #c3baba;
+       border: 2rem #c3baba groove;
        border-collapse: collapse;
        padding: 0.5rem;
        margin: auto;

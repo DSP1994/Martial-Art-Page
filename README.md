@@ -124,10 +124,17 @@ The above shows a little insight to what went through my mind in the reasonings 
   - As mentioned in the [Typography](#Typgraphy) section, google fonts was used to provide a more unique look for the site.
 
 - [HTML Checker](https://validator.w3.org/)
-   - 
-   
-* W3C Mark up Validations Service
+   - I ran all 5 pages through the HTML validator to ensure that the Web page ran smoothly with the correct code.
+
+- [CSS Checker](https://jigsaw.w3.org/css-validator/)
+  - Just like the HTML Checker, this site was used to ensure that my CSS passed the correct test results to be used to create an interoperable Web page.
+
+- [Chromes Lighthouse Audit](https://web.dev/)
+  - This service was used to check how my site worked in an overall capacity. The results of this, and the HTML & CSS Checkers, can be found in the [Testing](#Testing) section.
+  
+
 ***
+
 ## **Completion Of The Website**
 ### **What else would I like to add?**
 *any future ideas?*
@@ -137,6 +144,9 @@ Struggles, setting the nav links in a straight line.
 ### **Testing**
 *contrast accessibility validator - with results in screen shot form*
 
+  ![CSS Checker](readme-content/images/CSS-checker.png)
+
+![Performance-Checker](readme-content/images/Performance-Checker.png)
 *show W3C markup index page and CSS reports via screenshots*
 
 *chromes lighthouse audit service*
