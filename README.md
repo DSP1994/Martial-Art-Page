@@ -68,10 +68,15 @@ I found that these colors matched surprisingly well with the logo I had decided 
 ### **Typography**
 The headers on all pages throughout the Website are using the **"Oswald"** font, whilst the main text is using the **"Roboto"** font. Both of which are from google fonts, which can be found in the '[Technology Used](#Technology-Used)' section.
 
-### Images
+### **Images/Video**
 
-*site names and places etc*
-***
+The main logo for the site has been sourced from [Free Vector](https://www.freepik.com/free-vector/jiu-jitsu-athletes-fighting-with-black-belts_10582157.htm#query=martial%20arts&position=34&from_view=search), which is a free picture site, so long as you source where you received the picture from. (<a href='https://www.freepik.com/vectors/fight'>Fight vector created by freepik - www.freepik.com</a>)
+
+The smokey background image was sourced from [Unsplashed](https://unsplash.com/photos/qjCHPZbeXCQ), again, another free site as long as you credit the original site. (Photo by <a href="https://unsplash.com/@ewxy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">W</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  )
+
+The video that is being used to represent the *'more information'* section of the information page, has been sourced from [Coverr.co](https://coverr.co/). Once again, another free site , however creditting is not a necessity, but a courtesy. (https://coverr.co/videos/men-practicing-martial-arts-wW487LS9SW)
+
 ## **During The Project**
 ### **Features on the site**
 By planning out my ideas previously in the '[What-I-Intend-To-Include](#What-I-Intend-To-Include)' section, I was able to essentially 'tick-off' my plans whilst working my way through the project. This allowed me to more effecient throughout.
@@ -106,6 +111,8 @@ By planning out my ideas previously in the '[What-I-Intend-To-Include](#What-I-I
 The above shows a little insight to what went through my mind in the reasonings behind the pages I decided to use for this project, and how to balance a new customer coming to the site, versus a recurring customer. As both are needed in order to run a successful site.
 
 ### **Technologies Used**
+
+
 *bullet point style list and info*
 * *balsamiq*
 * compressor.io?
