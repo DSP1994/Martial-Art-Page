@@ -15,7 +15,7 @@
 body{
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    color: #d72638;
+    
     /*other colors wanted #3f88c5 , #C3BABA */
 }
 
@@ -161,11 +161,12 @@ div > h3{
 #events {
     margin-bottom: 6rem ;
 }
-#events ul{
+.list{
     color: #c3baba;
     font-size: 1.5rem;
     line-height: 3.8rem;
     list-style-type: none;
+    padding: .25rem;
 }
 video{
     padding-top: 6rem;
@@ -363,7 +364,7 @@ footer{
           padding-top: 3rem;
           width: 45%;
       }
-      #events ul{
+      .list {
         font-size: 3rem;
         line-height: 4rem;
     }
@@ -452,7 +453,7 @@ footer{
         width: 55%;
         padding-top: 4rem;
     }
-    #events ul{
+    .list{
         font-size: 4rem;
         line-height: 5.5rem;
     }
@@ -584,7 +585,7 @@ footer{
     #main-tutor video{
         width: 60%;
     }
-    #events ul{
+    .list{
         font-size: 4rem;
         line-height: 5.5rem;
     }

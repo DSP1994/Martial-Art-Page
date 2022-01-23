@@ -16,18 +16,18 @@
 - [Purpose](#Purpose)
 - [Brief](#Brief)
 - [Including](#What-I-entend-to-include)
-- [Responsive-Website](#Responsive-Website)
-- [Beginning-The-Project](#Beginning-The-Project)
-  - [Initial-Idea](#Initial-Idea)
+- [Responsive Website](#Responsive-Website)
+- [Beginning The Project](#Beginning-The-Project)
+  - [Initial Idea](#Initial-Idea)
   - [Color-Scheme](#Color-Scheme)
   - [Typography](#Typography)
   - [Images](#Images)
-- [During-The-Project](#During-The-Project)
-  - [Features-On-The-Site](#Features-On-The-Site)
-  - [Technology-Used](#Technology-Used)
-- [Completion-Of-The-Website](#Completion-Of-The-Website)
-  - [What-Else](#What-Else?)
-  - [Personal-Difficulties](#Personal-Difficulties)
+- [During The Project](#During-The-Project)
+  - [Features On The Site](#Features-On-The-Site)
+  - [Technology Used](#Technology-Used)
+- [Completion Of The Website](#Completion-Of-The-Website)
+  - [What Else](#What-Else?)
+  - [Personal Difficulties](#Personal-Difficulties)
   - [Testing](#Testing)
   - [Bugs](#Bugs)
   - [Resolved](#Resolved)
@@ -56,17 +56,37 @@ Misfits Martial Arts, Misfits MA. The end goal of this project is to create a we
 ***
 ## **Beginning The Project**
 ### **Initial Idea**
+After doing some research on clubs in the local area, and from personal experience in old clubs I used to attend, I knew that most Martial Art websites lacked a lot of basic structure. Most were extremely plain, with very little visual stimulation and hard to follow. I knew from this that my navigation would be key to ensuring new and returning customers could use my site quickly and efficiently, regardless of the device they were viewing it on. A lot of sites I looked into seemed to be over stimualted with information, and didn't make use of multiple pages for one site. I knew from this, that this would play a big part in my layout.
 
-*Drawings etc*
+Below are some rough sketches that I drew by hand to start bringing my idea to life. From brain, to paper, to github! I must reiterate, these are *rough* sketches, I am no artist.
+
+### **Home Page**
+![Home-Page](readme-content/images/home-page-website.jpg)
+***
+### **Info Page**
+![Info-Page](readme-content/images/info-page-website.jpg)
+***
+### **Times Page**
+![Times-Page](readme-content/images/times-page-website.jpg)
+***
+### **Enquire Page**
+![Enquire-Page](readme-content/images/enquire-website.jpg)
+***
+
+### **Thank You Page**
+This is something I came up with whilst doing further research during the project. I saw a lot of mention of it on Slack, and decided it would be a good feature to add in. Though the *'form'* doesn't actually go anywhere, it was a nice touch for the user to receive some visual feedback of their actions.
+***
 
 ### **Colour Scheme**
 A unique and eye popping color pallet created using *[coolors.co](https://coolors.co)*. Black, red and blue are the senior most colors in Taekwon-Do, so I thought it fitting that these should be represented in the website.
 ![color-scheme](readme-content/images/color-pallet.png)
 
 I found that these colors matched surprisingly well with the logo I had decided to use on the homepage. This was, in all honesty, a happy coincidence that I had not planned for, however it made me realise the importance of ensuring no two colors clashed, and made me very aware of what colors I was using on each webpage going through the project.
+***
 
 ### **Typography**
 The headers on all pages throughout the Website are using the **"Oswald"** font, whilst the main text is using the **"Roboto"** font. Both of which are from google fonts, which can be found in the '[Technology Used](#Technology-Used)' section.
+***
 
 ### **Images/Video**
 
@@ -76,6 +96,7 @@ The smokey background image was sourced from [Unsplashed](https://unsplash.com/p
   )
 
 The video that is being used to represent the *'more information'* section of the information page, has been sourced from [Coverr.co](https://coverr.co/). Once again, another free site , however creditting is not a necessity, but a courtesy. (https://coverr.co/videos/men-practicing-martial-arts-wW487LS9SW)
+***
 
 ## **During The Project**
 ### **Features on the site**
@@ -109,6 +130,7 @@ By planning out my ideas previously in the '[What-I-Intend-To-Include](#What-I-I
 >It also allows for existing students to contact their tutor officially through the form, for any concerns, questions on upcoming events, or even to acquire extra help. It is a great way to keep traffic coming back to the site.
 
 The above shows a little insight to what went through my mind in the reasonings behind the pages I decided to use for this project, and how to balance a new customer coming to the site, versus a recurring customer. As both are needed in order to run a successful site.
+***
 
 ### **Technologies Used**
 - [Font Awesome](https://fontawesome.com/)
@@ -131,8 +153,6 @@ The above shows a little insight to what went through my mind in the reasonings 
 
 - [Chromes Lighthouse Audit](https://web.dev/)
   - This service was used to check how my site worked in an overall capacity. The results of this, and the HTML & CSS Checkers, can be found in the [Testing](#Testing) section.
-  
-
 ***
 
 ## **Completion Of The Website**
@@ -142,9 +162,12 @@ The above shows a little insight to what went through my mind in the reasonings 
 Struggles, setting the nav links in a straight line.
 - background images, enquiry, struggled with center center, put it to top center - 
 ### **Testing**
-*contrast accessibility validator - with results in screen shot form*
-
-  ![CSS Checker](readme-content/images/CSS-checker.png)
+As mentioned in the above Technologies, I used HTML, CSS and a Performance Checker, to double check all my code, and how efficiently my site ran. The results of these can be found below;
+#### **HTML Validator**
+*This was the same result for all five pages*
+![HTML Checker](readme-content/images/html-checker.png)
+***
+![CSS Checker](readme-content/images/CSS-checker.png)
 
 ![Performance-Checker](readme-content/images/Performance-Checker.png)
 *show W3C markup index page and CSS reports via screenshots*
