@@ -164,11 +164,13 @@ Struggles, setting the nav links in a straight line.
 ### **Testing**
 As mentioned in the above Technologies, I used HTML, CSS and a Performance Checker, to double check all my code, and how efficiently my site ran. The results of these can be found below;
 #### **HTML Validator**
-*This was the same result for all five pages*
+Eventually I was able to receive the *'No errors or warnings to show'* message, after a couple tweaks to the coding on different pages. I will go into more detail in the *'[Bugs](#bugs)'* section.
 ![HTML Checker](readme-content/images/html-checker.png)
 ***
+There were a couple of bugs in my CSS Styling, however these were either a spelling mistake, or a space missing in the code, very basic human error, so easily amended.
 ![CSS Checker](readme-content/images/CSS-checker.png)
-
+***
+According to other members of the 'Slack' community, this audit (though )
 ![Performance-Checker](readme-content/images/Performance-Checker.png)
 *show W3C markup index page and CSS reports via screenshots*
 

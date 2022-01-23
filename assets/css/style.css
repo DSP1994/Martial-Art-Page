@@ -15,6 +15,7 @@
 body{
     font-family: "Oswald", sans-serif;
     font-weight: 300;
+    color: #d72638;
     
     /*other colors wanted #3f88c5 , #C3BABA */
 }
@@ -428,7 +429,7 @@ footer{
 @media screen and (min-width:1024px){
     /*nav and social media links*/
     .container-img{
-        height: 120vh;
+        height: 145vh;
     }
     .social-networks{
         padding: 1.2rem;
@@ -558,7 +559,7 @@ footer{
         padding-right: 12rem;
     }
     .container-img{
-        height: 150vh;
+        height: 175vh;
     }
     /*index page*/
     #title-img img {
@@ -659,6 +660,6 @@ footer{
 
 @media screen and (min-width:1850px) {
     .container-img{
-        height: 180vh;
+        height: 190vh;
     }
 }
