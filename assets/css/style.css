@@ -142,7 +142,9 @@ header{
 #section-2{
     position: relative;
 }
-
+.txt-info{
+    color: #c3baba;
+}
 .info-style {
     background-color: #d72638;
     height: 30rem;
@@ -277,6 +279,12 @@ input{
 .buttons:hover{
     background-color: #c3baba;
 }
+.enq-txt-info {
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #222222;
+}
 /*thank you page*/
 #thankyou{
     padding-top: 5rem;
@@ -342,7 +350,7 @@ footer{
         padding-right: 4rem;
     }
     .container-img{
-        height: 140vh;
+        height: 150vh;
     }
     /*index page*/
       h1, h2{
@@ -396,8 +404,11 @@ footer{
         font-size: 5rem;
         padding-top: 4.5rem;
     }
-    .enq-txt-info{
+    .enq-txt-info {
+        padding: 2rem;
+        text-align: center;
         font-size: 3rem;
+        color: #222222;
     }
     .enquire-info{
         font-size: 4rem;
@@ -409,6 +420,7 @@ footer{
     input{
         height: 3rem;
         width: 25rem;
+        font-size: 1.6rem;
     }
     #further-q{
         height: 15rem;
@@ -501,10 +513,10 @@ footer{
         padding-top: 3rem;
         font-size: 5rem;
     }
-    p{
-        padding: 2rem;
+    .enq-txt-info {
+        padding: 1.2rem;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 3.5rem;
         color: #222222;
     }
     .enquire-info{
@@ -512,13 +524,14 @@ footer{
     }
 
     label{
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 600;
     }    
     input{
         height: 2rem;
         width: 20rem;
-        }
+        font-size: 2rem;
+    }
     #further-q{
         height: 15rem;
         font-size: 2.5rem;
@@ -528,10 +541,7 @@ footer{
         height: 4rem;
         width: 15rem;
     }
-    .enq-txt-info{
-        font-size: 2.5rem;
-    }
-    /*thankyou page*/
+   /*thankyou page*/
     .thankyou{
     margin-top: 12rem;
     }
@@ -621,16 +631,13 @@ footer{
     }
     /*enquire page*/
     #enquire-title{
-        font-size: 4rem;
-    }
-    p{
-        font-size: 2.2rem;
+        font-size: 5rem;
     }
     .enquire-info{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     label{
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 600;
     }    
     input{
@@ -649,7 +656,8 @@ footer{
         width: 15rem;
     }
     .enq-txt-info{
-        font-size: 2.5rem;
+        padding: 2.5rem;
+        font-size: 3rem;
     }
     /*thankyou page*/
     .thankyou{

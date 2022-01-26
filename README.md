@@ -176,7 +176,7 @@ According to other members of the 'Slack' community, this audit  (though an offi
 #### **Current**
 There is a slight styling issue with the background image when used on much larger screens. There tends to be a large white space at the bottom of some pages. I believe this to be due to the size of the image being used as the background image. At this stage I am not planning on amending this, as it does not affect the average user. If I were to notice this again, I would either changed the background image to allow for a more vaired background height, or use @media queries to stretch the picture ever so slightly, to ensure the customer still has a good experience, without distorting the image too much.
 ***
-### **Resolved**
+#### **Resolved**
 After using the HTML validator I encountered a few errors which I had to correct in order to achieve the 'no errors' message. Such as follows;
 #### **Info Page Errors**
 ![Info-Errors](readme-content/images/info-errors.png)
