@@ -109,6 +109,8 @@ By planning out my ideas previously in the '[What I Intend To Include](#What-I-I
 
 * With the customer now reassured as to where they are, the header and footer of the Website are clearly visible and are a constant anchor, remaining the same, throughout all the Web pages. This allows the customer to navigate the site quickly and effeciently.
 
+* To allow the customer some feedback, when a social media link is clicked, or hovered over, it will turn a different colour, indicating to the user what is happening.
+
   ![Nav-Bar](readme-content/images/nav-bar.png)
 
 > In order to put the customer at ease that they would be attending the correct club for them, an *'about us'* section was essential.
@@ -172,7 +174,10 @@ The above shows a little insight to what went through my mind in the reasonings 
 - I would also like to add a training section. Where members of the club are able to view videos of techniques used in class, to allow them to continue their training in the comfort of their own home.
 ***
 ### **Testing**
-As mentioned in the above Technologies, I used HTML, CSS and a Performance Checker, to double check all my code, and how efficiently my site ran. The results of these can be found below;
+As mentioned in the above Technologies, I used HTML, CSS and a Performance Checker, to double check all my code, and how efficiently my site ran. The results of these can be found further below.
+
+However I also went through each page to ensure that the customer would be able to use each one efficiently. By doing this I can confirm that the website is responsive and works well on all standard screen sizes, that the text on each web page is readable and easy to understand and finally I can confirm that the form works and requires the user to enter the correct information on each field.
+### **Validators**
 #### **HTML Validator**
 Eventually I was able to receive the *'No errors or warnings to show'* message, after a couple tweaks to the coding on different pages. I will go into more detail in the *'[Bugs](#bugs)'* section.
 ![HTML Checker](readme-content/images/html-checker.png)
