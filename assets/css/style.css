@@ -40,9 +40,13 @@ p{
 }
 #logo {
     float: left;
-    font-size: 90%;
     padding-left: 2.5rem;
     text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #d72638;
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 
 .spacer{
