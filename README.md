@@ -5,7 +5,7 @@
 ***
 ## Live Site
 
-[Misfits Martial Arts](https://dsp1994.github.io/My-First-Full-Project/)
+[Misfits Martial Arts](https://dsp1994.github.io/Martial-Art-Page/)
 
 ## Repository
 
